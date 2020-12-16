@@ -6,3 +6,5 @@ Ceasul multifunctional este conceput pe o placa FPGA-Nexys3, cu procesor MicroBl
 1.Fisierul FPGAsystem.c reprezinta elementul software, incarcat pe microprocesorul FPGA-ului si actioneaza ca o interfata intre perifericele de temperatura si ceas, si comunicarea UART cu exteriorul.
 
 2.Fisierul UART.c reprezinta mediul de verificare al comunicatiei pe UART, intre Rasberry Pi si FPGA. In acesta se transmite comanda de citire a temperaturii(caracterul k) si se asteapta raspuns.
+
+3.Fisierul proiect-main.c contine codul principal incarcat pe Rasberry Pi, rulat sub Linux, cu Preempt-RT.
